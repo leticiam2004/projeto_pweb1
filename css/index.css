@@ -11,13 +11,13 @@
     transform: scale(1.1);
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.carousel-control-prev-icon .blk,
+.carousel-control-next-icon .blk {
     background-color: black;
     border-radius: 50%;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev .blk,
+.carousel-control-next .blk {
     filter: invert(100%);
 }

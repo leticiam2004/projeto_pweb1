@@ -9,6 +9,11 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/contato.css" />
+    <script>
+        function AlertaEnviar() {
+            alert("Sua situação está em analíse. Muito obrigado por entrar em contato!");
+        }
+    </script>
 </head>
 
 <body>
@@ -46,7 +51,45 @@
             </nav>
         </div>
     </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Nome completo</label>
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Jessie Rocket">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Assunto</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Dúvidas sobre produtos</option>
+                    <option>Problemas com o pedido</option>
+                    <option>Sugestões de novos produtos</option>
+                    <option>Feedback sobre a experiência de compra</option>
+                    <option>Suporte técnico</option>
+                    <option>Questões sobre entrega</option>
+                    <option>Informações sobre promoções</option>
+                    <option>Cancelamento de pedido</option>
+                    <option>Outras questões</option>
+                </select>
 
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Por favor, descreva sua situação</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <a href="#" class="btn" style="background-color: #30A7D6; color: white;" onclick="AlertaEnviar()">Enviar</a>
+        </form>
+    </div>
 
     <footer class="fixed-bottom text-white py-3" style="background-color: #e23a26">
         <div class="container text-center">
