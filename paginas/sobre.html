@@ -12,10 +12,12 @@
 </head>
 
 <body>
-    <header class="text-white py-3" style="background-color: #e23a26">
+    <header class="fixed-top text-white py-3" style="background-color: #e23a26">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="../img/logo.svg" id="logo" alt="PokéMart" />
+                <a href="../index.html">
+                    <img src="../img/logo.svg" id="logo" alt="PokéMart" />
+                </a>
             </div>
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,9 +47,124 @@
         </div>
     </header>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100 h-100vh" src="../img/pokemart-1.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="font-weight-bold">Seu ponto de encontro Pokémon favorito há 28 anos!</h5>
+                    <p class="font-weight-light">Encontre tudo o que você precisa para suas aventuras</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 h-100vh" src="../img/pokemart-2.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-dark font-weight-bold">Transforme sua coleção Pokémon em algo épico!</h5>
+                    <p class="text-dark font-weight-light">Produtos oficiais e exclusivos do Japão</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100 h-100vh" src="../img/pokemart-3.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="font-weight-bold">A jornada Pokémon começa aqui!</h5>
+                    <p class="font-weight-light">Compre seus itens favoritos e se prepare para a aventura</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
 
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Nossa história</h1>
+            <p class="lead">A PokéMart é um lugar onde você pode comprar itens para seus Pokémon. Há pessoas com
+                quem conversar que podem dar dicas sobre alguns dos itens. Este prédio pode ser encontrado em quase
+                todas as cidades e vilas, com exceção de cidades como Goldenrod ou Celadon, que têm uma Loja
+                de Departamentos em vez de uma PokéMart. As PokéMarts são administradas pela Silph Co. Desde Pokémon
+                Black and White, a PokéMart foi integrada ao Centro Pokémon.</p>
+        </div>
+    </div>
 
-    <footer class="text-white py-3" style="background-color: #e23a26">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Primeira geração - 1996</h5>
+                        <p class="card-text">O clássico Poké Mart de Viridian City, onde tudo começou. Uma parada
+                            essencial para novos treinadores em sua jornada</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN2.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Segunda geração (Kanto) - 1999</h5>
+                        <p class="card-text">Com novos itens e surpresas, esta loja é um ponto de encontro popular para
+                            treinadores explorando a região de Kanto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN2_1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Segunda geração (Johto) - 1999</h5>
+                        <p class="card-text">Bem-vindo ao Johto! Este Poké Mart oferece produtos de última geração para
+                            sua aventura regional.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN3.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Terceira geração (Hoenn) - 2002</h5>
+                        <p class="card-text">Em Hoenn, a Poké Mart tem tudo que você precisa para enfrentar as condições
+                            desafiadoras e os diversos Pokémon da região.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN3_1.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Terceira geração (Kanto) - 2002</h5>
+                        <p class="card-text">Uma Poké Mart renovada em Kanto, trazendo itens exclusivos para os
+                            treinadores mais dedicados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" style="width: 100%;">
+                    <img class="card-img-top" src="../img/PM-GEN4.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quarta geração - 2006</h5>
+                        <p class="card-text">Explore Sinnoh com os melhores suprimentos! Este Poké Mart está sempre
+                            pronto para ajudar em sua jornada épica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <hr>
+    <footer class="fixed-bottom text-white py-3" style="background-color: #e23a26">
         <div class="container text-center">
             <div class="d-flex justify-content-around font-weight-bold">
                 <a href="#" class="text-white font-weight-bold">TRABALHE CONOSCO</a>

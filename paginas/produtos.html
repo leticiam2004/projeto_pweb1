@@ -9,13 +9,20 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="../css/loja.css" />
+    <script>
+        function AddCarrinho() {
+            alert("Adicionado ao carrinho!");
+        }
+    </script>
 </head>
 
 <body>
-    <header class="text-white py-3" style="background-color: #e23a26">
+    <header class="fixed-top text-white py-3" style="background-color: #e23a26">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="../img/logo.svg" id="logo" alt="PokéMart" />
+                <a href="../index.html">
+                    <img src="../img/logo.svg" id="logo" alt="PokéMart" />
+                </a>
             </div>
             <!-- navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,10 +50,199 @@
             </nav>
         </div>
     </header>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="container">
+        <div class="row row-cols-2 row-cols-lg-3 mx-auto">
 
+            <!-- pokeballs -->
+            <div class="col">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-ball-pokeball.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Pokéball</h5>
+                        <p class="card-text">¥200</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-ball-greatball.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">GreatBall</h5>
+                        <p class="card-text">¥600</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-ball-ultraball.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">UltraBall</h5>
+                        <p class="card-text">¥1200</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
 
+            <!-- potions -->
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-poison.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Veneno</h5>
+                        <p class="card-text">¥100</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-paralyze.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Paralisia</h5>
+                        <p class="card-text">¥200</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-sleep.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Sono</h5>
+                        <p class="card-text">¥250</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
 
-    <footer class="text-white py-3" style="background-color: #e23a26">
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-burn.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Queimadura</h5>
+                        <p class="card-text">¥250</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-ice.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Gelo</h5>
+                        <p class="card-text">¥250</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-heal-full.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Cura Completa</h5>
+                        <p class="card-text">¥600</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- poções -->
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-potion.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Poção</h5>
+                        <p class="card-text">¥300</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-potion-super.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Super Poção</h5>
+                        <p class="card-text">¥700</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-potion-hyper.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Hiper Poção</h5>
+                        <p class="card-text">¥1200</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-potion-max.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Poção Máxima</h5>
+                        <p class="card-text">¥2500</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- repel e revive -->
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-revive.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Reviver</h5>
+                        <p class="card-text">¥1500</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-repel.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Repelente</h5>
+                        <p class="card-text">¥350</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-repel-super.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Super Repelente</h5>
+                        <p class="card-text">¥500</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col-lg-3">
+                <div class="card mt-4 mb-4" style="width: auto;">
+                    <img class="card-img-top" src="../img/item-repel-max.png" alt="Imagem de capa do card">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold">Repelente Máximo</h5>
+                        <p class="card-text">¥700</p>
+                        <a href="#" class="btn btn-primary" onclick="AddCarrinho()">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <hr>
+    <hr>
+
+    <footer class="fixed-bottom text-white py-3" style="background-color: #e23a26">
         <div class="container text-center">
             <div class="d-flex justify-content-around font-weight-bold">
                 <a href="#" class="text-white font-weight-bold">TRABALHE CONOSCO</a>
