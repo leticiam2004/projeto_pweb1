@@ -11,7 +11,7 @@
     transform: scale(1.1);
 }
 
-.h-95vh {
-    height: 95vh;
+.h-100vh {
+    height: 100vh;
     object-fit: cover;
   } 
