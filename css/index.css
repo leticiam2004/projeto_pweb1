@@ -21,3 +21,8 @@
 .carousel-control-next .blk {
     filter: invert(100%);
 }
+
+.h-80vh {
+    height: 80vh;
+    object-fit: cover;
+  } 
